@@ -18,9 +18,4 @@ export function fetchData() {
 
 
 fetchData().then(movies => 
-    
-    for 
-
     console.log(movies));
-
-
