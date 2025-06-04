@@ -1,9 +1,12 @@
-
+import React from "react";
+import { fetchData } from "./ApiService.js";
 
 
 function App() { 
-  return(<h1>hello world!</h1>)
+  const movieData = fetchData
+
+  return<h1>hello world</h1>
 }
 
 
-export default App();
+export default App;
