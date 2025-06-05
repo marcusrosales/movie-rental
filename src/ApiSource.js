@@ -1,7 +1,7 @@
 
 
 
-async function fetchMovies() {
+export async function fetchMovies() {
     const url = ('https://imdb236.p.rapidapi.com/api/imdb/most-popular-movies')
     const options = {
         method: "GET",
@@ -25,4 +25,6 @@ async function fetchMovies() {
     } catch(error) {
         console.log(error)}};
 
-fetchMovies()
+
+
+export default fetchMovies   

@@ -1,9 +1,18 @@
 import React from "react";
+import { useEffect } from "react";
+import {fetchMovies} from './ApiSource'
 
 
 function App() { 
-  return<h1>hello world</h1>
-}
+  const list = ["test",'eggs','helloThere']
+
+  useEffect(()=>{console.log('test')})
+
+
+  return(<>
+  <h1>Top 3 Movies</h1>
+  <img></img>
+  </>)}
 
 
 export default App;
