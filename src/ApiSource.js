@@ -12,6 +12,9 @@ export async function fetchMovies() {
         const result = await repsone.json();
         const movies = result.slice(0,1)
         
+        //NEED TO FIND A WAY TO EFFICRNTLY RETURN WANTED COMPONENRS INSIDE THE ONJECT.
+
+        
         const movie_array = []
 
         for(let movieIndex = 0; movieIndex < 3; movieIndex++){
